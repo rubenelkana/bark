@@ -66,6 +66,22 @@ preload_models()
 text_prompt = """
      Hello, my name is Suno. And, uh — and I like pizza. [laughs] 
      But I also have other interests such as playing tic tac toe.
+"Okay! Here’s the question: 
+ Which is better—pizza or burgers? 
+ Hmm… that’s a tough choice!"
+"But burgers are so cool! 
+ You can eat them anywhere. You don’t need a plate! 
+ And there’s cheese, lettuce, and yummy meat inside!"
+"Oh, my favorite is pepperoni. 
+ It’s spicy and delicious! 
+ What about you, Zoe?"
+"Pineapple? No way! That’s weird! 
+ Fruit doesn’t go on pizza!"
+"Wow! That sounds tasty! 
+ Maybe pizza and burgers are both great."
+"Tell us in the comments! 
+ And don’t forget to practice the new words!"
+Bye! (Waving and smiling at the camera.)
 """
 audio_array = generate_audio(text_prompt)
 
